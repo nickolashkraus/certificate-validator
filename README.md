@@ -2,10 +2,10 @@
 
 ⚠️**Warning**: This repository is deprecated. DNS validation can be accomplished using Terraform. See [infrable-io/terraform-aws-static-website](https://github.com/infrable-io/terraform-aws-static-website).
 
-[![Travis CI](https://travis-ci.org/NickolasHKraus/certificate-validator.svg?branch=master)](https://travis-ci.org/NickolasHKraus/certificate-validator)
-[![Codecov](https://img.shields.io/codecov/c/github/NickolasHKraus/certificate-validator)](https://codecov.io/gh/NickolasHKraus/certificate-validator)
-[![Releases](https://img.shields.io/github/v/release/NickolasHKraus/certificate-validator?color=blue)](https://github.com/NickolasHKraus/certificate-validator/releases)
-[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/NickolasHKraus/certificate-validator/blob/master/LICENSE)
+[![Travis CI](https://travis-ci.org/nickolashkraus/certificate-validator.svg?branch=master)](https://travis-ci.org/nickolashkraus/certificate-validator)
+[![Codecov](https://img.shields.io/codecov/c/github/nickolashkraus/certificate-validator)](https://codecov.io/gh/nickolashkraus/certificate-validator)
+[![Releases](https://img.shields.io/github/v/release/nickolashkraus/certificate-validator?color=blue)](https://github.com/nickolashkraus/certificate-validator/releases)
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/nickolashkraus/certificate-validator/blob/master/LICENSE)
 ![Status](https://img.shields.io/static/v1?label=status&message=deprecated&color=blueviolet)
 
 Certificate Validator is an AWS CloudFormation custom resource which facilitates AWS Certificate Manager (ACM) certificate validation via DNS.
@@ -24,7 +24,7 @@ From the [`AWS::CertificateManager::Certificate`](https://docs.aws.amazon.com/AW
 
 ## Getting Started
 
-Check out the [Getting Started](https://github.com/NickolasHKraus/certificate-validator/blob/master/docs/getting-started.md) documentation to start using Certificate Validator.
+Check out the [Getting Started](https://github.com/nickolashkraus/certificate-validator/blob/master/docs/getting-started.md) documentation to start using Certificate Validator.
 
 ## Validating a certificate with DNS
 
@@ -38,7 +38,7 @@ Content of DNS Record is: {Name: _x1.<domain-name>.com.,Type: CNAME,Value: _x2.a
 
 Where `x1` and `x2` are random hexadecimal strings.
 
-To automate DNS validation, you can use [this](https://github.com/NickolasHKraus/cloudformation-templates/blob/master/static-website/dns-validation.sh) script.
+To automate DNS validation, you can use [this](https://github.com/nickolashkraus/cloudformation-templates/blob/master/static-website/dns-validation.sh) script.
 
 ```bash
 ./dns-validation.sh $DOMAIN_NAME $STACK_NAME

@@ -2,4 +2,4 @@
 
 | Maintainer | GitHub ID | Affiliation |
 | ---------- | --------- | ----------- |
-| Nickolas Kraus | [NickolasHKraus](https://github.com/NickolasHKraus) | Independent |
+| Nickolas Kraus | [nickolashkraus](https://github.com/nickolashkraus) | Independent |
