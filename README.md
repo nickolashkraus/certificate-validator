@@ -2,8 +2,6 @@
 
 ⚠️**Warning**: This repository is deprecated. DNS validation can be accomplished using Terraform. See [infrable-io/terraform-aws-static-website](https://github.com/infrable-io/terraform-aws-static-website).
 
-[![Travis CI](https://travis-ci.org/nickolashkraus/certificate-validator.svg?branch=master)](https://travis-ci.org/nickolashkraus/certificate-validator)
-[![Codecov](https://img.shields.io/codecov/c/github/nickolashkraus/certificate-validator)](https://codecov.io/gh/nickolashkraus/certificate-validator)
 [![Releases](https://img.shields.io/github/v/release/nickolashkraus/certificate-validator?color=blue)](https://github.com/nickolashkraus/certificate-validator/releases)
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/nickolashkraus/certificate-validator/blob/master/LICENSE)
 ![Status](https://img.shields.io/static/v1?label=status&message=deprecated&color=blueviolet)
