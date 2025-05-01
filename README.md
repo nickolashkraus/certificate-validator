@@ -1,10 +1,9 @@
 # Certificate Validator
 
-⚠️**Warning**: This repository is deprecated. DNS validation can be accomplished using Terraform. See [infrable-io/terraform-aws-static-website](https://github.com/infrable-io/terraform-aws-static-website).
+⚠️**WARNING**: This repository is deprecated. DNS validation can be accomplished using Terraform.  
+See [infrable-io/terraform-aws-static-website](https://github.com/infrable-io/terraform-aws-static-website).
 
-[![Releases](https://img.shields.io/github/v/release/nickolashkraus/certificate-validator?color=blue)](https://github.com/nickolashkraus/certificate-validator/releases)
-[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/nickolashkraus/certificate-validator/blob/master/LICENSE)
-![Status](https://img.shields.io/static/v1?label=status&message=deprecated&color=blueviolet)
+![Status](https://img.shields.io/static/v1?label=Status&message=Deprecated&color=blueviolet)
 
 Certificate Validator is an AWS CloudFormation custom resource which facilitates AWS Certificate Manager (ACM) certificate validation via DNS.
 
